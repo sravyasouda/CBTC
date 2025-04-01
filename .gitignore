@@ -1,1 +1,50 @@
 
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folder (you should not include the virtual environment)
+env/
+
+# Database file (SQLite, commonly used in Django or Python projects)
+db.sqlite3
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python distribution / build files
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+*.coveragerc
+
+# Ignore test files if you don't want to include them (optional)
+tests/
+
+# If you're using a web framework like Django, you can add these
+static/
+media/
+
+# Ignore the .git directory (this should already be excluded by default)
+.git/
+
+# Ignore environment-specific files
+*.env
+*.env.local
+*.env.*.local
